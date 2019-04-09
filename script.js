@@ -34,8 +34,8 @@ function color() {
 const reset = document.querySelector(".reset");
 reset.addEventListener("click", removeColor);
 
-const delete = document.querySelector(".del");
-del.addEventListener("click", function() {
+const newGrid = document.querySelector(".new");
+newGrid.addEventListener("click", function() {
   let size = prompt("How many squares per side do you want?");
   if (size) {
     const container = document.querySelector(".container");
